@@ -1,0 +1,22 @@
+Nasleđivanje (Inheritance):
+
+Nasleđivanje omogućava kreiranje novih klasa (podklasa) koje nasleđuju osobine i metode već postojeće klase (nadklasa).
+U vašem kodu, StudentInheritance nasleđuje Person, što znači da student ima sva svojstva i metode osobe, ali može imati i dodatne specifične karakteristike, kao što je numIndex.
+
+Enkapsulacija:
+Enkapsulacija je princip koji podrazumeva sakrivanje detalja implementacije i ograničavanje pristupa podacima unutar objekta.
+Vaša klasa Person primenjuje enkapsulaciju koristeći privatne atribute name i age, a zatim pruža javne metode (getName() i getAge()) kako bi omogućila kontrolisan pristup tim podacima.
+
+Polimorfizam:
+Polimorfizam omogućava da se istoimeni metodi koriste na različite načine, u zavisnosti od tipa objekta.
+Primer polimorfizma u vašem kodu je kada pozivate sayHay() metodu na objektima tipa Person i StudentInheritance. Obe klase imaju istu metodu, ali se izvršava specifična implementacija u zavisnosti od tipa objekta.
+
+Apstrakcija:
+Apstrakcija je proces sakrivanja složenosti i prikazivanja samo relevantnih detalja.
+Primer apstrakcije u vašem kodu može biti koncept osobe. Klasa Person apstrahuje zajedničke osobine svih osoba,
+ a konkretni detalji (kao što su indeks studenta) su apstrahovani u klasu StudentInheritance.
+Apstrakcija omogućava jasno definisanje suštinskih karakteristika na višem nivou.
+
+Interfejsi:
+Interfejsi definišu skup apstraktnih metoda koje klase implementiraju.
+Na primer, možete imati interfejs Speakable koji definiše apstraktnu metodu speak(). Klase poput Person i StudentInheritance mogu implementirati ovaj interfejs, pružajući sopstvenu implementaciju speak() metode.
