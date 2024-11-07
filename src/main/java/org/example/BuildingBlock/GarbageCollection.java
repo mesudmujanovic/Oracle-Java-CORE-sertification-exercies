@@ -7,6 +7,7 @@ public class GarbageCollection {
         a = new String("Emperor");
         b = new String("King");
         a = b;
+        System.gc();
         String c = a;
         a = null;
     }
